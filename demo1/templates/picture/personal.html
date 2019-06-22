@@ -1,0 +1,36 @@
+{% extends 'picture/base.html' %}
+{% block title %}
+<title>个人页面</title>
+{% endblock %}
+
+
+{% block content %}
+    <div class="fh5co-gallery">
+        <h2 class="fh5co-heading" >take by:{{ photographer.name }}</h2>
+        {% for data_use in data_num.data %}
+
+            <a class="gallery-item " href="{% url 'picture:personalsingle' photographer.id data_use.classify.id %}">
+                <img src="/static/images/{{ data_use.classify.title }}.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+                <span class="overlay">
+                    <h2 id="title">{{ data_use.classify.title }}</h2>
+                    <span>{{ data_use.number }} Photos</span>
+                </span>
+            </a>
+
+        {% endfor %}
+    </div>
+    <div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">联系我们</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead"> 不联系,是因为你的冷漠伤到我,不主动,是因为我根本感动不了你。</p>
+						<p><a href="{% url 'picture:contact' %}" class="btn btn-primary btn-outline">了解更多</a></p>
+					</div>
+
+				</div>
+			</div>
+{% endblock %}

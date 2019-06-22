@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a2011715-0b80-456a-9501-82f97dafef43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/demo1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/demo1/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/demo1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/demo1/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/migrations/0002_auto_20190619_2201.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/migrations/0003_message.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/picture/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/bootstrap/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/bootstrap/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/bootstrap/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/bootstrap/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/bootstrap/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Animals.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Animation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Baloon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Beach.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Building.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Cars.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Family.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Food.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Gadgets.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Originality.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/People.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/Travel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/VegetarianFood.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/27e228bfbef2a778efb155307960002873750c32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/Morpho_Polyphemus_Butterfly-Natural_animal_photography_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/f948806ebbae4d6c9f84adf198f05487.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/u=1953025651,2242874301&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animals/u=2305042265,3639407252&amp;fm=15&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/1354347779257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/20150423H4729_JCPcr.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/20150820204057_CZdza.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/20160523151035_12355f25e00bfa47778.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/20170721171352_5fFGT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/animation/b266300db4bed03cad63ccbb76940db98674113c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/baloon/583e3e9bc591c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/baloon/Cappadocia-Goreme-National-Park-Turkey-colorful-hot-air-balloons_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/baloon/Hot-air-balloons-flying-morning-dawn-sunrise-mountains-fog_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/baloon/a34f5c60b5454906b42d3304fbde2bc3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/beach/2014071218421445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/beach/Beach_Lizard-Animal_Photo_Wallpapers_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/beach/Durdle_Door_Beach-Landscape_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/beach/Sea-blue-sky-resort-bungalow-palm-trees-beach_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/beach/bora_bora-Sunny_Beach_Landscape_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/big_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/big_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/big_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/Architectural-landscape-of-the-Roman-Colosseum_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/Germany_Saarbrucken_-_Germany_Saarbrucken_city_view_6_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/Wisconsin_State_Capitol-Cities_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/afternoon_idle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/queensboro_bridge-Travel_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/u=1491062547,3245652582&amp;fm=214&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/buidling/u=2339608655,685288998&amp;fm=214&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/20141111111940.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/2015_Jaguar_F-Type_R_Coupe_Car_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/2016_Print_Tech_Lamborghini_Huracan_HD_Wallpaper_01_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/2017_Audi_R8_Spyder_V10_Auto_HD_Wallpaper_26_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/Infiniti_QX30-High_Quality_HD_Wallpaper_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/Mercedes_Benz_amg_vision-Car_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/cars/u=3129339952,2341600316&amp;fm=15&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/family/aa64034f78f0f7368936b7640955b319eac4138e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/family/photograph_sz_200_interior_decoration_01_44766_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/Beautiful-pink-bells-flowers_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/Morning_Glory_Flower_Photography_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/Red_flower-photography_HD_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/sakura_macro_branch-HD_widescreen_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/spring_red_flowers-Plants_Photo_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/flowers/white_flower-Photo_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/food/Cupcake-cream-raspberries-berries-dessert-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/food/Donuts-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/food/One-dish-chicken-legs-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/food/Pancakes-banana-mint-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/food/Pancakes-honey-berries-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/gadgets/sad_danbo-Creative_Design_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/hero.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/img_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/loc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/logo-colored.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/nature/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/nature/Blue_ridge_mountains_north_carolina-2017_High_Quality_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/nature/Sunset_hiding_behind_tree_lake-Nature_photography_HD_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/nature/tree_path-Landscape_Widescreen_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/nature/u=1564725015,2385528888&amp;fm=15&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/originality/12881567319668ev0du5atx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/originality/138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/originality/1424430x06lz543l2nqhvd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/originality/Colorful-flowers-garden-creative-pictures_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/originality/Girl-Colorful-flowers-hair-creative_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/Alia_Bhatt-Beauty_Celebrities_HD_Photo_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/American_TV-Supernatural_wallpaper_05_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/Bruce_Lee-Kung_Fu_40th_Anniversary_Wallpaper_17_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/Suzy_Korean_girls_photo_HD_wallpaper_23_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/The_Mortal_Instruments_City_of_Bones_Movie_HD_Wallpaper_16_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/actress_yami_gautam-photo_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/people/u=3801171559,43130079&amp;fm=214&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/person1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/person3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/person4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/sky/Boulder-Colorado-beautiful-sunrise-scenery-floating-clouds-sky_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/sky/Coast-stones-sea-sky-clouds-sunset_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/sky/Purple_clouds_at_sunset-Nature_Scenery_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/sky/Saint_John_England_Snow_Mountains-High_Quality_HD_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/sky/Sunset-tree-grass-sky-clouds_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/testimonial_person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/testimonial_person3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/testimonial_person4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/travel/14505369804014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/travel/190305120830478b95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/travel/20121223081009_MFEtk.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/travel/35caa8d4155f4aa1aefd6403419e8528.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/travel/u=2033245062,1294826455&amp;fm=26&amp;gp=0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/vegetarian-food/Hot_lunch_vegetarian-High_Quality_HD_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/vegetarian-food/a3ca7a7e26042dafc4e033ef6c1fe67a316981.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/vegetarian-food/other_foods--10_18-1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/work.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/work_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/work_15 (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/work_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/images/work_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/google_map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/modernizr-2.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/js/respond.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/person1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/person4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/testimonial_person2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/testimonial_person3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/headimage/testimonial_person4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/004.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/12881567319668ev0du5atx.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1354347779257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1424430x06lz543l2nqhvd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/14505369804014.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/190305120830478b95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1_5gFEmGD.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1_7o9vhWp.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1_BJfp3Yh.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/1_oHfROuq.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20121223081009_MFEtk.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/2014071218421445.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/2014071218421445_vMgJ54v.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20141111111940.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20150423H4729_JCPcr.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20150820204057_CZdza.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/2015_Jaguar_F-Type_R_Coupe_Car_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20160523151035_12355f25e00bfa47778.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/2016_Print_Tech_Lamborghini_Huracan_HD_Wallpaper_01_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/20170721171352_5fFGT.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/2017_Audi_R8_Spyder_V10_Auto_HD_Wallpaper_26_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/27e228bfbef2a778efb155307960002873750c32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/35caa8d4155f4aa1aefd6403419e8528.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/583e3e9bc591c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Alia_Bhatt-Beauty_Celebrities_HD_Photo_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/American_TV-Supernatural_wallpaper_05_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Architectural-landscape-of-the-Roman-Colosseum_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Beach_Lizard-Animal_Photo_Wallpapers_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Beautiful-pink-bells-flowers_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Blue_ridge_mountains_north_carolina-2017_High_Quality_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Blue_ridge_mountains_north_carolina-2017_High_Quality_Wallpaper_1280x800_N5FaMWu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Boulder-Colorado-beautiful-sunrise-scenery-floating-clouds-sky_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Bruce_Lee-Kung_Fu_40th_Anniversary_Wallpaper_17_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Cappadocia-Goreme-National-Park-Turkey-colorful-hot-air-balloons_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Coast-stones-sea-sky-clouds-sunset_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Colorful-flowers-garden-creative-pictures_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Cupcake-cream-raspberries-berries-dessert-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Donuts-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Durdle_Door_Beach-Landscape_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Germany_Saarbrucken_-_Germany_Saarbrucken_city_view_6_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Girl-Colorful-flowers-hair-creative_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Hot-air-balloons-flying-morning-dawn-sunrise-mountains-fog_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Hot_lunch_vegetarian-High_Quality_HD_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Infiniti_QX30-High_Quality_HD_Wallpaper_1280x1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Mercedes_Benz_amg_vision-Car_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Morning_Glory_Flower_Photography_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Morpho_Polyphemus_Butterfly-Natural_animal_photography_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/One-dish-chicken-legs-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Pancakes-banana-mint-delicious-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Pancakes-honey-berries-food_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Purple_clouds_at_sunset-Nature_Scenery_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Red_flower-photography_HD_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Saint_John_England_Snow_Mountains-High_Quality_HD_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Sea-blue-sky-resort-bungalow-palm-trees-beach_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Sunset-tree-grass-sky-clouds_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Sunset_hiding_behind_tree_lake-Nature_photography_HD_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Suzy_Korean_girls_photo_HD_wallpaper_23_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Suzy_Korean_girls_photo_HD_wallpaper_23_1280x960_6jUvT5T.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/The_Mortal_Instruments_City_of_Bones_Movie_HD_Wallpaper_16_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/Wisconsin_State_Capitol-Cities_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/a34f5c60b5454906b42d3304fbde2bc3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/a3ca7a7e26042dafc4e033ef6c1fe67a316981.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/aa64034f78f0f7368936b7640955b319eac4138e.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/actress_yami_gautam-photo_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/actress_yami_gautam-photo_HD_Wallpaper_1280x800_Ug3Xw6W.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/afternoon_idle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/b266300db4bed03cad63ccbb76940db98674113c.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/bora_bora-Sunny_Beach_Landscape_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/bora_bora-Sunny_Beach_Landscape_Wallpaper_1280x800_SSKCb9G.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/f948806ebbae4d6c9f84adf198f05487.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/other_foods--10_18-1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/photograph_sz_200_interior_decoration_01_44766_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/queensboro_bridge-Travel_Wallpaper_1280x960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/sad_danbo-Creative_Design_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/sakura_macro_branch-HD_widescreen_wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/spring_red_flowers-Plants_Photo_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/tree_path-Landscape_Widescreen_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/tree_path-Landscape_Widescreen_Wallpaper_1280x800_6N4H6b6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u14910625473245652582fm214gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u15647250152385528888fm15gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u19530256512242874301fm26gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u20332450621294826455fm26gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u23050422653639407252fm15gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u2339608655685288998fm214gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u31293399522341600316fm15gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/u380117155943130079fm214gp0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/media/picture/white_flower-Photo_HD_Wallpaper_1280x800.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/_bootstrap-compass.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/_bootstrap-mincer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/_bootstrap-sprockets.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_badges.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_breadcrumbs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_button-groups.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_component-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_dropdowns.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_glyphicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_input-groups.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_navs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_normalize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_pager.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_panels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_popovers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_progress-bars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_responsive-embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_responsive-utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_scaffolding.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_thumbnails.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/_wells.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_center-block.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_hide-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_nav-vertical-align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_opacity.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_panels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_progress-bar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_reset-filter.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_responsive-visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_tab-focus.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_text-overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/bootstrap/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/static/sass/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/personal.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/portfolio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo1/templates/picture/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/request.txt" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/templates/picture/personal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/picture/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/templates/picture/single.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo1/demo1/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="125" selection-start-line="125" selection-end-line="125" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/picture/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/templates/picture/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/templates/picture/portfolio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#div#1;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/picture/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/picture/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-272">
+              <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo1/templates/picture/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+              <folding>
+                <element signature="n#div#1;n#!!top" />
+                <element signature="n#div#2;n#!!top" />
+                <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#!!top" />
+                <element signature="n#div#4;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/demo1/demo1/urls.py" />
+        <option value="$PROJECT_DIR$/demo1/demo1/settings.py" />
+        <option value="$PROJECT_DIR$/demo1/picture/urls.py" />
+        <option value="$PROJECT_DIR$/demo1/picture/models.py" />
+        <option value="$PROJECT_DIR$/demo1/picture/forms.py" />
+        <option value="$PROJECT_DIR$/demo1/picture/views.py" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/personal.html" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/portfolio.html" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/contact.html" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/index.html" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/about.html" />
+        <option value="$PROJECT_DIR$/demo1/picture/admin.py" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/base.html" />
+        <option value="$PROJECT_DIR$/demo1/templates/picture/single.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/project1.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="146" />
+    <option name="y" value="63" />
+    <option name="width" value="1219" />
+    <option name="height" value="652" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="project1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="project1" type="462c0819:PsiDirectoryNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/博客网站的设计与实现/it_web" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\py1903\third_stage\project1\demo1\static\media" />
+      <recent name="E:\py1903\third_stage\project1\demo1\static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a2011715-0b80-456a-9501-82f97dafef43" name="Default Changelist" comment="" />
+      <created>1560925648150</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560925648150</updated>
+      <workItem from="1560925649950" duration="20468000" />
+      <workItem from="1560991053025" duration="31633000" />
+      <workItem from="1561078160211" duration="5107000" />
+      <workItem from="1561163837642" duration="3388000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="60596000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19969743" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.33225808" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/demo1/demo1/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+          <folding>
+            <element signature="e#629#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11755">
+          <caret line="1224" selection-start-line="1224" selection-end-line="1224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="6252" column="29" lean-forward="true" selection-start-line="6252" selection-start-column="29" selection-end-line="6252" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/static/media/media/person4_w3mNVkU.jpg" />
+    <entry file="file://$PROJECT_DIR$/demo1/static/media/media/person4.jpg" />
+    <entry file="file://$PROJECT_DIR$/demo1/static/media/media/person2.jpg" />
+    <entry file="file://$PROJECT_DIR$/demo1/static/js/jquery.countTo.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/static/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="101" column="25" lean-forward="true" selection-start-line="101" selection-start-column="25" selection-end-line="101" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xjj/xjj/demo4/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../xjj/xjj/demo4/blog/search_indexes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#div#3;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="83" column="14" selection-start-line="83" selection-start-column="14" selection-end-line="83" selection-end-column="14" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+            <element signature="n#div#2;n#!!top" />
+            <element signature="n#style#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#!!top" />
+            <element signature="n#div#4;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/portfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/picture/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/templates/picture/personal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo1/demo1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

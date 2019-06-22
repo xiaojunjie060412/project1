@@ -1,0 +1,40 @@
+{% extends 'picture/base.html' %}
+{% block title %}
+<title>详情页</title>
+{% endblock %}
+
+{% block content %}
+	<div class="fh5co-narrow-content animate-box fh5co-border-bottom" data-animate-effect="fadeInLeft">
+		<h2 class="fh5co-heading" >{{ classify.title }}</h2>
+		<p><p>每一张照片，都是时光的标本。</p></p>
+
+		<div class="row">
+			{% for p in pictures %}
+
+			<div class="col-md-12">
+				<figure><img src="/static/media/{{ p.pic }}" alt="Free HTML5 Bootstrap Template by FreeHTML5.co" class="img-responsive">
+					<figcaption>{{ p.intro }}</figcaption>
+				</figure>
+			</div>
+			{% endfor %}
+			<div class="col-md-12">
+			<p class="text-center"><a href="{% url 'picture:portfolio' %}" class="btn btn-primary btn-outline">More Photos</a></p>
+			</div>
+
+		</div>
+	</div>
+	<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">联系我们</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead">不联系,是因为你的冷漠伤到我,不主动,是因为我根本感动不了你。</p>
+						<p><a href="{% url 'picture:contact' %}" class="btn btn-primary btn-outline">了解更多</a></p>
+					</div>
+
+				</div>
+			</div>
+{% endblock %}

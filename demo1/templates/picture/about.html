@@ -1,0 +1,111 @@
+{% extends 'picture/base.html' %}
+{% block title %}
+<title>关于我们</title>
+{% endblock %}
+
+{% block content %}
+	<div class="fh5co-narrow-content">
+		<div class="row">
+			<div class="col-md-5">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">我是约翰·多伊，摄影师</h2>
+				<p class="fh5co-lead animate-box" data-animate-effect="fadeInLeft">  你会不断的遇见一些人，也会不停的和一些人说再见，从陌生到熟悉，从熟悉再回陌生，从臭味相投到分道扬镳，从相见恨晚到再也不见。</p>
+				<p class="animate-box" data-animate-effect="fadeInLeft"> 你要明白，一切都是瞬息万变的，你现在要做的就是不要想那么多，做好当下，过好每一天，以后的事就交给以后来说，不要害怕不要乱想不要猜疑，该发生的总会发生你拦也拦不住，不会发生的被你瞎猜只会影响你的心情，祝女孩能够不给感情困扰。</p>
+			</div>
+			<div class="col-md-6 col-md-push-1 animate-box" data-animate-effect="fadeInLeft">
+				<img src="/static/images/img_1.jpg" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="fh5co-narrow-content  animate-box fh5co-border-bottom" data-animate-effect="fadeInLeft">
+		<h2 class="fh5co-heading" >摄影师</span></h2>
+
+		<div class="row">
+			{% for p in photographers %}
+			<div class="col-md-4 fh5co-staff">
+				<img src="/static/media/{{ p.headimage }}" alt="Free HTML5 Bootstrap Template" class="img-responsive">
+				<a href="{% url 'picture:personal' p.id %}"><h3>{{ p.name }}</h3></a>
+				<h4>{{ p.position }}</h4>
+				<p>{{ p.info }}</p>
+				<ul class="fh5co-social">
+					<li><a href="#"><i class="icon-google"></i></a></li>
+					<li><a href="#"><i class="icon-dribbble"></i></a></li>
+					<li><a href="#"><i class="icon-twitter"></i></a></li>
+					<li><a href="#"><i class="icon-facebook"></i></a></li>
+					<li><a href="#"><i class="icon-instagram"></i></a></li>
+				</ul>
+			</div>
+
+			{% endfor %}
+		</div>
+	</div>
+
+
+
+	<div class="fh5co-narrow-content fh5co-border-bottom">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">这就是<span>我们喜欢做的事</span></h2>
+				<div class="row">
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-strategy"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>战略</h3>
+								<p>所谓战术，指的是在战场中，如何调度兵马以赢得胜利的技俩。而战略指的是，如何让战术能够完全有效地发挥其功能的整体技术而言。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-telescope"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>探索</h3>
+								<p>我们不肯探索自己本身的价值，我们过分看重他人在自己生命里的参与。于是，孤独不再美好，失去了他人，我们惶惑不安。</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-circle-compass"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>方向</h3>
+								<p>正确的方向，积极的思想，环境的栽培，坚持不懈的行动。观念决定方向，思路决定出路，胸怀决定规模。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+							<div class="fh5co-icon">
+								<i class="icon-tools-2"></i>
+							</div>
+							<div class="fh5co-text">
+								<h3>专门知识</h3>
+								<p>人生在世，应当有所专业，农民则商议耕稼，商人则讨论货财，工匠则精造器用，懂技艺的人则考虑方法技术，武夫则练习骑马射箭，文士则研究议论经书。</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+	</div>
+	<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">联系我们</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead">不联系,是因为你的冷漠伤到我,不主动,是因为我根本感动不了你。</p>
+						<p><a href="{% url 'picture:contact' %}" class="btn btn-primary btn-outline">了解更多</a></p>
+					</div>
+
+				</div>
+			</div>
+{% endblock %}

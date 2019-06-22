@@ -1,0 +1,127 @@
+{% extends 'picture/base.html' %}
+
+{% block title %}
+	<title>首页</title>
+{% endblock %}
+
+{% block content %}
+	<div class="fh5co-gallery">
+		{% for c in classify %}
+			<a class="gallery-item" href="{% url 'picture:single' c.id %}">
+				<img src="/static/images/{{ c.title }}.jpg" alt="Free HTML5 Bootstrap Template by FreeHTML5.co">
+				<span class="overlay">
+					<h2>{{ c.title }}</h2>
+					<span>{{ c.mypicture_set.count }} Photos</span>
+				</span>
+			</a>
+
+		{% endfor %}
+	</div>
+
+
+
+	<div class="fh5co-narrow-content">
+		<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">服务</h2>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+					<div class="fh5co-icon">
+						<i class="icon-strategy"></i>
+					</div>
+					<div class="fh5co-text">
+						<h3>战略</h3>
+						<p>所谓战术，指的是在战场中，如何调度兵马以赢得胜利的技俩。而战略指的是，如何让战术能够完全有效地发挥其功能的整体技术而言。</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+					<div class="fh5co-icon">
+						<i class="icon-telescope"></i>
+					</div>
+					<div class="fh5co-text">
+						<h3>探索</h3>
+						<p>我们不肯探索自己本身的价值，我们过分看重他人在自己生命里的参与。于是，孤独不再美好，失去了他人，我们惶惑不安。 </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+					<div class="fh5co-icon">
+						<i class="icon-circle-compass"></i>
+					</div>
+					<div class="fh5co-text">
+						<h3>方向</h3>
+						<p>正确的方向，积极的思想，环境的栽培，坚持不懈的行动。观念决定方向，思路决定出路，胸怀决定规模。</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
+					<div class="fh5co-icon">
+						<i class="icon-tools-2"></i>
+					</div>
+					<div class="fh5co-text">
+						<h3>专门知识</h3>
+						<p>人生在世，应当有所专业，农民则商议耕稼，商人则讨论货财，工匠则精造器用，懂技艺的人则考虑方法技术，武夫则练习骑马射箭，文士则研究议论经书。</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+
+	<div class="fh5co-testimonial" >
+		<div class="fh5co-narrow-content">
+			<div class="owl-carousel-fullwidth animate-box" data-animate-effect="fadeInLeft">
+                {% for c in celebrity %}
+			        <div class="item">
+				<figure>
+					<img src="/static/media/{{ c.headimage }}" alt="Free HTML5 Bootstrap Template">
+				</figure>
+				<p class="text-center quote">&ldquo;{{ c.dictum }}&rdquo; <cite class="author">&mdash; {{ c.name }}</cite></p>
+			</div>
+                {% endfor %}
+
+		  </div>
+		</div>
+	</div>
+
+
+	<div class="fh5co-counters" style="background-image: url(/static/images/hero.jpg);" data-stellar-background-ratio="0.5" id="counter-animate">
+				<div class="fh5co-narrow-content animate-box">
+					<div class="row" >
+						<div class="col-md-4 text-center">
+							<span class="fh5co-counter js-counter" data-from="0" data-to="20" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Client</span>
+						</div>
+						<div class="col-md-4 text-center">
+							<span class="fh5co-counter js-counter" data-from="0" data-to="{{ pictures.count }}" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Photos</span>
+						</div>
+						<div class="col-md-4 text-center">
+							<span class="fh5co-counter js-counter" data-from="0" data-to="27232" data-speed="5000" data-refresh-interval="50"></span>
+							<span class="fh5co-counter-label">Pixels</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+	<div class="fh5co-narrow-content">
+				<div class="row">
+					<div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+						<h1 class="fh5co-heading-colored">联系我们</h1>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+						<p class="fh5co-lead">不联系,是因为你的冷漠伤到我,不主动,是因为我根本感动不了你。</p>
+						<p><a href="{% url 'picture:contact' %}" class="btn btn-primary btn-outline">了解更多</a></p>
+					</div>
+
+				</div>
+			</div>
+
+{% endblock %}

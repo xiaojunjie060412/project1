@@ -1,0 +1,84 @@
+{% extends 'picture/base.html' %}
+{% block title %}
+<title>联系我们</title>
+{% endblock %}
+
+{% block content %}
+<!--	<div id="map"></div>-->
+
+
+	<div class="fh5co-narrow-content animate-box" data-animate-effect="fadeInLeft">
+		<div class="row">
+			<div class="col-md-4">
+				<h1>留言板：</h1>
+			</div>
+		</div>
+		<div class="row">
+			{% for m in messages %}
+				<div class="col-md-12 fh5co-staff">
+					<h3>{{ m.name }}</h3>
+					<h4>{{ m.email }}</h4>
+					<p>{{ m.content }}</p>
+				</div>
+			{% endfor %}
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<h1>留言：</h1>
+			</div>
+		</div>
+		<form action="{% url 'picture:contact' %}" method="post">
+			{% csrf_token %}
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								{{ mf }}
+								<input type="submit" class="btn btn-primary btn-md" value="发送">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</form>
+	</div>
+	<div class="fh5co-more-contact">
+		<div class="fh5co-narrow-content">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="fh5co-icon">
+							<i class="icon-envelope-o"></i>
+						</div>
+						<div class="fh5co-text">
+							<p><a href="#">info@domain.com</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="fh5co-icon">
+							<i class="icon-map-o"></i>
+						</div>
+						<div class="fh5co-text">
+							<p>198 West 21th Street, Suite 721 New York NY 10016</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-feature fh5co-feature-sm animate-box" data-animate-effect="fadeInLeft">
+						<div class="fh5co-icon">
+							<i class="icon-phone"></i>
+						</div>
+						<div class="fh5co-text">
+							<p><a href="tel://">+123 456 7890</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+{% endblock %}
